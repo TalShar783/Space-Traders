@@ -1,0 +1,470 @@
+{
+  "X1-P4-A1": {
+    "symbol": "X1-P4-A1",
+    "type": "PLANET",
+    "systemSymbol": "X1-P4",
+    "x": -22,
+    "y": -14,
+    "orbitals": [
+      {
+        "symbol": "X1-P4-A2"
+      },
+      {
+        "symbol": "X1-P4-A3"
+      },
+      {
+        "symbol": "X1-P4-A4"
+      }
+    ],
+    "traits": [
+      {
+        "symbol": "JUNGLE",
+        "name": "Jungle",
+        "description": "A lush, tropical world with dense vegetation and a thriving ecosystem, offering a wealth of resources and unique opportunities for research and exploration."
+      },
+      {
+        "symbol": "SCATTERED_SETTLEMENTS",
+        "name": "Scattered Settlements",
+        "description": "A collection of dispersed communities, each independent yet connected through trade and communication networks."
+      },
+      {
+        "symbol": "MARKETPLACE",
+        "name": "Marketplace",
+        "description": "A thriving center of commerce where traders from across the galaxy gather to buy, sell, and exchange goods."
+      }
+    ],
+    "isUnderConstruction": false,
+    "faction": {
+      "symbol": "QUANTUM"
+    },
+    "modifiers": [],
+    "chart": {
+      "waypointSymbol": "X1-P4-A1",
+      "submittedBy": "QUANTUM",
+      "submittedOn": "2026-04-19T13:00:38.834Z"
+    }
+  },
+  "X1-P4-AF5E": {
+    "symbol": "X1-P4-AF5E",
+    "type": "ENGINEERED_ASTEROID",
+    "systemSymbol": "X1-P4",
+    "x": 4,
+    "y": -27,
+    "orbitals": [],
+    "traits": [
+      {
+        "symbol": "COMMON_METAL_DEPOSITS",
+        "name": "Common Metal Deposits",
+        "description": "A waypoint rich in common metal ores like iron, copper, and aluminum, essential for construction and manufacturing."
+      },
+      {
+        "symbol": "STRIPPED",
+        "name": "Stripped",
+        "description": "A location that has been over-mined or over-harvested, resulting in depleted resources and barren landscapes."
+      },
+      {
+        "symbol": "MARKETPLACE",
+        "name": "Marketplace",
+        "description": "A thriving center of commerce where traders from across the galaxy gather to buy, sell, and exchange goods."
+      }
+    ],
+    "isUnderConstruction": false,
+    "faction": {
+      "symbol": "QUANTUM"
+    },
+    "modifiers": [],
+    "chart": {
+      "waypointSymbol": "X1-P4-AF5E",
+      "submittedBy": "QUANTUM",
+      "submittedOn": "2026-04-19T13:00:38.834Z"
+    }
+  },
+  "X1-P4-B6": {
+    "symbol": "X1-P4-B6",
+    "type": "FUEL_STATION",
+    "systemSymbol": "X1-P4",
+    "x": -131,
+    "y": -139,
+    "orbitals": [],
+    "traits": [
+      {
+        "symbol": "MARKETPLACE",
+        "name": "Marketplace",
+        "description": "A thriving center of commerce where traders from across the galaxy gather to buy, sell, and exchange goods."
+      }
+    ],
+    "isUnderConstruction": false,
+    "faction": {
+      "symbol": "QUANTUM"
+    },
+    "modifiers": [],
+    "chart": {
+      "waypointSymbol": "X1-P4-B6",
+      "submittedBy": "QUANTUM",
+      "submittedOn": "2026-04-19T13:00:38.834Z"
+    }
+  },
+  "X1-P4-B7": {
+    "symbol": "X1-P4-B7",
+    "type": "ASTEROID_BASE",
+    "systemSymbol": "X1-P4",
+    "x": -213,
+    "y": -271,
+    "orbitals": [],
+    "traits": [
+      {
+        "symbol": "HOLLOWED_INTERIOR",
+        "name": "Hollowed Interior",
+        "description": "A location with large hollow spaces beneath its surface, providing unique opportunities for subterranean construction and resource extraction, but also posing risks of structural instability."
+      },
+      {
+        "symbol": "OUTPOST",
+        "name": "Outpost",
+        "description": "A small, remote settlement providing essential services and a safe haven for travelers passing through."
+      },
+      {
+        "symbol": "MARKETPLACE",
+        "name": "Marketplace",
+        "description": "A thriving center of commerce where traders from across the galaxy gather to buy, sell, and exchange goods."
+      }
+    ],
+    "isUnderConstruction": false,
+    "faction": {
+      "symbol": "QUANTUM"
+    },
+    "modifiers": [],
+    "chart": {
+      "waypointSymbol": "X1-P4-B7",
+      "submittedBy": "QUANTUM",
+      "submittedOn": "2026-04-19T13:00:38.834Z"
+    }
+  },
+  "X1-P4-B8": {
+    "symbol": "X1-P4-B8",
+    "type": "ASTEROID",
+    "systemSymbol": "X1-P4",
+    "x": -114,
+    "y": -313,
+    "orbitals": [],
+    "traits": [
+      {
+        "symbol": "MINERAL_DEPOSITS",
+        "name": "Mineral Deposits",
+        "description": "Abundant mineral resources, attracting mining operations and providing valuable materials such as silicon crystals and quartz sand for various industries."
+      },
+      {
+        "symbol": "RADIOACTIVE",
+        "name": "Radioactive",
+        "description": "A hazardous location with elevated levels of radiation, requiring specialized equipment and shielding for safe habitation and exploration."
+      }
+    ],
+    "isUnderConstruction": false,
+    "faction": {
+      "symbol": "QUANTUM"
+    },
+    "modifiers": [],
+    "chart": {
+      "waypointSymbol": "X1-P4-B8",
+      "submittedBy": "QUANTUM",
+      "submittedOn": "2026-04-19T13:00:38.834Z"
+    }
+  },
+  "X1-P4-B9": {
+    "symbol": "X1-P4-B9",
+    "type": "ASTEROID",
+    "systemSymbol": "X1-P4",
+    "x": -270,
+    "y": -213,
+    "orbitals": [],
+    "traits": [
+      {
+        "symbol": "COMMON_METAL_DEPOSITS",
+        "name": "Common Metal Deposits",
+        "description": "A waypoint rich in common metal ores like iron, copper, and aluminum, essential for construction and manufacturing."
+      },
+      {
+        "symbol": "EXPLOSIVE_GASES",
+        "name": "Explosive Gases",
+        "description": "A volatile environment filled with highly reactive gases, posing a constant risk to those who venture too close and offering opportunities for harvesting valuable materials such as hydrocarbons."
+      }
+    ],
+    "isUnderConstruction": false,
+    "faction": {
+      "symbol": "QUANTUM"
+    },
+    "modifiers": [],
+    "chart": {
+      "waypointSymbol": "X1-P4-B9",
+      "submittedBy": "QUANTUM",
+      "submittedOn": "2026-04-19T13:00:38.834Z"
+    }
+  },
+  "X1-P4-B10": {
+    "symbol": "X1-P4-B10",
+    "type": "ASTEROID",
+    "systemSymbol": "X1-P4",
+    "x": 113,
+    "y": -303,
+    "orbitals": [],
+    "traits": [
+      {
+        "symbol": "MINERAL_DEPOSITS",
+        "name": "Mineral Deposits",
+        "description": "Abundant mineral resources, attracting mining operations and providing valuable materials such as silicon crystals and quartz sand for various industries."
+      },
+      {
+        "symbol": "DEEP_CRATERS",
+        "name": "Deep Craters",
+        "description": "Marked by deep, expansive craters, potentially formed by ancient meteor impacts. These formations may offer hidden resources but also pose challenges for mobility and construction."
+      }
+    ],
+    "isUnderConstruction": false,
+    "faction": {
+      "symbol": "QUANTUM"
+    },
+    "modifiers": [],
+    "chart": {
+      "waypointSymbol": "X1-P4-B10",
+      "submittedBy": "QUANTUM",
+      "submittedOn": "2026-04-19T13:00:38.834Z"
+    }
+  },
+  "X1-P4-B11": {
+    "symbol": "X1-P4-B11",
+    "type": "ASTEROID",
+    "systemSymbol": "X1-P4",
+    "x": 107,
+    "y": -334,
+    "orbitals": [],
+    "traits": [
+      {
+        "symbol": "COMMON_METAL_DEPOSITS",
+        "name": "Common Metal Deposits",
+        "description": "A waypoint rich in common metal ores like iron, copper, and aluminum, essential for construction and manufacturing."
+      },
+      {
+        "symbol": "HOLLOWED_INTERIOR",
+        "name": "Hollowed Interior",
+        "description": "A location with large hollow spaces beneath its surface, providing unique opportunities for subterranean construction and resource extraction, but also posing risks of structural instability."
+      }
+    ],
+    "isUnderConstruction": false,
+    "faction": {
+      "symbol": "QUANTUM"
+    },
+    "modifiers": [],
+    "chart": {
+      "waypointSymbol": "X1-P4-B11",
+      "submittedBy": "QUANTUM",
+      "submittedOn": "2026-04-19T13:00:38.834Z"
+    }
+  },
+  "X1-P4-B12": {
+    "symbol": "X1-P4-B12",
+    "type": "ASTEROID",
+    "systemSymbol": "X1-P4",
+    "x": 132,
+    "y": -297,
+    "orbitals": [],
+    "traits": [
+      {
+        "symbol": "COMMON_METAL_DEPOSITS",
+        "name": "Common Metal Deposits",
+        "description": "A waypoint rich in common metal ores like iron, copper, and aluminum, essential for construction and manufacturing."
+      },
+      {
+        "symbol": "DEEP_CRATERS",
+        "name": "Deep Craters",
+        "description": "Marked by deep, expansive craters, potentially formed by ancient meteor impacts. These formations may offer hidden resources but also pose challenges for mobility and construction."
+      }
+    ],
+    "isUnderConstruction": false,
+    "faction": {
+      "symbol": "QUANTUM"
+    },
+    "modifiers": [],
+    "chart": {
+      "waypointSymbol": "X1-P4-B12",
+      "submittedBy": "QUANTUM",
+      "submittedOn": "2026-04-19T13:00:38.834Z"
+    }
+  },
+  "X1-P4-B13": {
+    "symbol": "X1-P4-B13",
+    "type": "ASTEROID",
+    "systemSymbol": "X1-P4",
+    "x": 191,
+    "y": -257,
+    "orbitals": [],
+    "traits": [
+      {
+        "symbol": "COMMON_METAL_DEPOSITS",
+        "name": "Common Metal Deposits",
+        "description": "A waypoint rich in common metal ores like iron, copper, and aluminum, essential for construction and manufacturing."
+      },
+      {
+        "symbol": "RADIOACTIVE",
+        "name": "Radioactive",
+        "description": "A hazardous location with elevated levels of radiation, requiring specialized equipment and shielding for safe habitation and exploration."
+      },
+      {
+        "symbol": "SHALLOW_CRATERS",
+        "name": "Shallow Craters",
+        "description": "Numerous shallow craters, offering easier access to sub-surface resources but also creating an uneven terrain that can complicate land-based activities."
+      }
+    ],
+    "isUnderConstruction": false,
+    "faction": {
+      "symbol": "QUANTUM"
+    },
+    "modifiers": [],
+    "chart": {
+      "waypointSymbol": "X1-P4-B13",
+      "submittedBy": "QUANTUM",
+      "submittedOn": "2026-04-19T13:00:38.834Z"
+    }
+  },
+  "X1-P4-A2": {
+    "symbol": "X1-P4-A2",
+    "type": "MOON",
+    "systemSymbol": "X1-P4",
+    "x": -22,
+    "y": -14,
+    "orbitals": [],
+    "traits": [
+      {
+        "symbol": "BARREN",
+        "name": "Barren",
+        "description": "A desolate world with little to no vegetation or water, presenting unique challenges for habitation and resource extraction."
+      },
+      {
+        "symbol": "OUTPOST",
+        "name": "Outpost",
+        "description": "A small, remote settlement providing essential services and a safe haven for travelers passing through."
+      },
+      {
+        "symbol": "EXTREME_TEMPERATURES",
+        "name": "Extreme Temperatures",
+        "description": "A waypoint with scorching heat or freezing cold, requiring specialized equipment and technology to survive and thrive in these harsh environments."
+      },
+      {
+        "symbol": "EXTREME_PRESSURE",
+        "name": "Extreme Pressure",
+        "description": "A location characterized by immense atmospheric pressure, demanding robust engineering solutions and innovative approaches for exploration and resource extraction."
+      },
+      {
+        "symbol": "TOXIC_ATMOSPHERE",
+        "name": "Toxic Atmosphere",
+        "description": "A waypoint with a poisonous atmosphere, necessitating the use of specialized equipment and technology to protect inhabitants and visitors from harmful substances."
+      },
+      {
+        "symbol": "THIN_ATMOSPHERE",
+        "name": "Thin Atmosphere",
+        "description": "A location with a sparse atmosphere, making it difficult to support life without specialized life-support systems."
+      },
+      {
+        "symbol": "MARKETPLACE",
+        "name": "Marketplace",
+        "description": "A thriving center of commerce where traders from across the galaxy gather to buy, sell, and exchange goods."
+      },
+      {
+        "symbol": "SHIPYARD",
+        "name": "Shipyard",
+        "description": "A bustling hub for the construction, repair, and sale of various spacecraft, from humble shuttles to mighty warships."
+      }
+    ],
+    "isUnderConstruction": false,
+    "orbits": "X1-P4-A1",
+    "faction": {
+      "symbol": "QUANTUM"
+    },
+    "modifiers": [],
+    "chart": {
+      "waypointSymbol": "X1-P4-A2",
+      "submittedBy": "QUANTUM",
+      "submittedOn": "2026-04-19T13:00:38.883Z"
+    }
+  },
+  "X1-P4-A3": {
+    "symbol": "X1-P4-A3",
+    "type": "MOON",
+    "systemSymbol": "X1-P4",
+    "x": -22,
+    "y": -14,
+    "orbitals": [],
+    "traits": [
+      {
+        "symbol": "VOLCANIC",
+        "name": "Volcanic",
+        "description": "A volatile world marked by intense volcanic activity, creating a hazardous environment with the potential for valuable resource extraction, such as rare metals and geothermal energy."
+      },
+      {
+        "symbol": "OUTPOST",
+        "name": "Outpost",
+        "description": "A small, remote settlement providing essential services and a safe haven for travelers passing through."
+      },
+      {
+        "symbol": "VIBRANT_AURORAS",
+        "name": "Vibrant Auroras",
+        "description": "A celestial light show caused by the interaction of charged particles with the waypoint's atmosphere, creating a mesmerizing spectacle and attracting tourists from across the galaxy."
+      },
+      {
+        "symbol": "STRONG_MAGNETOSPHERE",
+        "name": "Strong Magnetosphere",
+        "description": "A waypoint enveloped in a powerful magnetic field, potentially affecting spacecraft systems, and creating unique phenomena such as the concentration of exotic matter and graviton emitters."
+      },
+      {
+        "symbol": "EXTREME_PRESSURE",
+        "name": "Extreme Pressure",
+        "description": "A location characterized by immense atmospheric pressure, demanding robust engineering solutions and innovative approaches for exploration and resource extraction."
+      },
+      {
+        "symbol": "MARKETPLACE",
+        "name": "Marketplace",
+        "description": "A thriving center of commerce where traders from across the galaxy gather to buy, sell, and exchange goods."
+      }
+    ],
+    "isUnderConstruction": false,
+    "orbits": "X1-P4-A1",
+    "faction": {
+      "symbol": "QUANTUM"
+    },
+    "modifiers": [],
+    "chart": {
+      "waypointSymbol": "X1-P4-A3",
+      "submittedBy": "QUANTUM",
+      "submittedOn": "2026-04-19T13:00:38.883Z"
+    }
+  },
+  "X1-P4-A4": {
+    "symbol": "X1-P4-A4",
+    "type": "ORBITAL_STATION",
+    "systemSymbol": "X1-P4",
+    "x": -22,
+    "y": -14,
+    "orbitals": [],
+    "traits": [
+      {
+        "symbol": "EXPLORATION_OUTPOST",
+        "name": "Exploration Outpost",
+        "description": "A forward-operating base for explorers, scientists, and pioneers, providing support and resources for those venturing into uncharted territories."
+      },
+      {
+        "symbol": "MARKETPLACE",
+        "name": "Marketplace",
+        "description": "A thriving center of commerce where traders from across the galaxy gather to buy, sell, and exchange goods."
+      }
+    ],
+    "isUnderConstruction": false,
+    "orbits": "X1-P4-A1",
+    "faction": {
+      "symbol": "QUANTUM"
+    },
+    "modifiers": [],
+    "chart": {
+      "waypointSymbol": "X1-P4-A4",
+      "submittedBy": "QUANTUM",
+      "submittedOn": "2026-04-19T13:00:38.883Z"
+    }
+  }
+}
