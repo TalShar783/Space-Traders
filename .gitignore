@@ -1,2 +1,4 @@
 agent.token
-known_locations.json
+known_locations.db
+ships.db
+game.log
