@@ -1,3 +1,4 @@
+__pycache__/
 agent.token
 known_locations.db
 ships.db

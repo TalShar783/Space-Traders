@@ -1,6 +1,7 @@
 import asyncio
 import aiohttp
 import json
+import msvcrt
 import sqlite3
 import traceback
 from collections import deque
@@ -208,7 +209,8 @@ async def sell_all_cargo(ship, return_waypoint):
         if marketplace:
             sell_plan.setdefault(marketplace, []).append(item)
         else:
-            log(f"[{ship.symbol}] No marketplace found for {item['symbol']}, skipping")
+            log(f"[{ship.symbol}] No marketplace found for {item['symbol']}, jettisoning")
+            await ship.jettison(item["symbol"], item["units"])
 
     visited = set()
     while sell_plan:
@@ -232,7 +234,8 @@ async def sell_all_cargo(ship, return_waypoint):
                     sell_plan.setdefault(new_marketplace, []).append(item)
                     log(f"[{ship.symbol}] {item['symbol']} not bought here, will try {new_marketplace}")
                 else:
-                    log(f"[{ship.symbol}] No other market found for {item['symbol']}, leaving in cargo")
+                    log(f"[{ship.symbol}] No market found for {item['symbol']}, jettisoning")
+                    await ship.jettison(item["symbol"], item["units"])
 
         await ship.orbit()
 
@@ -328,6 +331,30 @@ async def copper_loop():
     await asyncio.gather(*[mine(s) for s in ships])
 
 
+async def print_contracts():
+    contracts = await get_contracts()
+    for c in contracts:
+        terms = c.get("terms", {})
+        deliver = terms.get("deliver", [])
+        deliver_str = ", ".join(
+            f"{d['tradeSymbol']} {d['unitsFulfilled']}/{d['unitsRequired']} → {d['destinationSymbol']}"
+            for d in deliver
+        )
+        log(f"[CONTRACT {c['id'][:8]}] {c['type']} | fulfilled={c['fulfilled']} | {deliver_str}")
+
+async def contract_status_loop():
+    while True:
+        await print_contracts()
+        await asyncio.sleep(300)
+
+async def keyboard_listener():
+    loop = asyncio.get_event_loop()
+    while True:
+        key = await loop.run_in_executor(None, msvcrt.getwch)
+        if key.lower() == "c":
+            await print_contracts()
+
+
 # --- Main ---
 
 async def main():
@@ -338,7 +365,11 @@ async def main():
     }) as sess:
         session = sess
         await update_ships()
-        await copper_loop()
+        await asyncio.gather(
+            copper_loop(),
+            contract_status_loop(),
+            keyboard_listener()
+        )
 
 try:
     asyncio.run(main())
